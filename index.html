@@ -52,26 +52,29 @@
 							<article class="post featured">
 								<header class="major">
 									
-									<h2><a href="https://github.com/firdaus97/Portfolio-Project/blob/main/COVID_Portfolio_Project.sql" target="_blank">SQL HOUSING Data Cleaning<br />
+									<h2><a href="https://github.com/firdaus97/Portfolio-Project/blob/main/COVID_Portfolio_Project.sql" target="_blank">PYTHON COVID-19 DEATH PREDICTION AND PowerBI<br />
 									</a></h2>
-									<p style="text-align: left;"><strong>In this project, housing data is cleaned using SQL Query:</strong><br>
+									<p style="text-align: left;"><strong>Utilizing a comprehensive COVID-19 dataset spanning from 2020 to 2023, Multiple Linear Regression (MLR) algorithm is employed to construct a predictive model for death, considering a multitude of variables.</strong><br>
 									<div style="text-align: left;">
 										<ul>
-											<li>Date Format is standardized using Convert() function.</li>
-											<li>PropertyAddress null data is replaced by joining other table that have same data using ISNULL() function.</li>
-											<li>PropertyAddress is breaked into Individual column (Address, City, State) using SUBSTRING(), CHARINDEX() and LEN() function.</li>
-											<li>Alternatively, OwnerAddress is breaked out into Individual column (Address, City, State) using PARSENAME() function.</li>
-											<li>Simplify data into understandable data using CASE statement.</li>
-											<li>Remove duplucate using CTE, ROW_NUMBER() function, PARTITION BY and ORDER BY clauses.</li>
-											<li>Lastly, data is further simplified with deleting unused column using Alter Table, Drop Column Command.</li>
+											<li>Worldwide Dataset is filtered to just Malaysia using python.</li>
+											<li>Data wrangling is executed to clean data(treating null value, duplicates and label encoding).</li>
+											<li>Outliers is checked base on boxplot.</li>
+											<li>Created heatmap and identified significant attributes to total death.</li>
+											<li>Data partitioning (80% train, 20% test).</li>
+											<li>Using Multiple Linear Regression algorith to create model.</li>
+											<li>Test data is used to compared prediction versus actual.</li>
+											<li>Calculated Means Square Error and r-squared and make conclusion.</li>
+											<li>PowerBI dashboard is created based on the cleaned dataset and conclude model prediction.</li>
 										</ul>
 									</div>
 
 							
 								</header>
-								<a href="https://github.com/firdaus97/Portfolio-Project/blob/main/Data%20Cleaning%20Portfolio%20Project%20Queries.sql" target="_blank" class="image main"><img src="images/HOUSE4.jpg" alt="" /></a>
+								<a href="https://github.com/firdaus97/Portfolio-Project/blob/e2eaa4698ade333dc1e691858bd74d69476d2c7d/Covid%20Deaths%20Project.ipynb" target="_blank" class="image main"><img src="images/Covid_Deaths_Dashboard_page1.jpg" alt="" /></a>
+								<a href="https://github.com/firdaus97/Portfolio-Project/blob/b5a42ee095becdc9dee3295d24eb0c21199cd1dc/Covid%20Deaths%20Project.ipynb" target="_blank" class="image main"><img src="images/Covid_Deaths_Dashboard_page2.jpg" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="https://github.com/firdaus97/Portfolio-Project/blob/main/Data%20Cleaning%20Portfolio%20Project%20Queries.sql" target="_blank" class="button large">View Project</a></li>
+									<li><a href="https://github.com/firdaus97/Portfolio-Project/blob/b5a42ee095becdc9dee3295d24eb0c21199cd1dc/Covid%20Deaths%20Project.ipynb" target="_blank" class="button large">View Project</a></li>
 								</ul>
 							</article>
 
